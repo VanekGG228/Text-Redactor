@@ -1,0 +1,80 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = #1056#1077#1076#1072#1082#1090#1086#1088
+  ClientHeight = 99
+  ClientWidth = 427
+  Color = clBtnFace
+  Constraints.MaxHeight = 128
+  Constraints.MaxWidth = 500
+  Constraints.MinHeight = 128
+  Constraints.MinWidth = 422
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object SAveLabel: TLabel
+    Left = 16
+    Top = 24
+    Width = 403
+    Height = 19
+    Caption = #1046#1077#1083#1072#1077#1090#1077' '#1089#1086#1093#1088#1072#1085#1080#1090#1100' '#1080#1079#1084#1077#1085#1077#1085#1080#1103' '#1076#1072#1085#1085#1086#1075#1086' '#1092#1072#1081#1083#1072'?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object SAveButton: TButton
+    Left = 8
+    Top = 63
+    Width = 98
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = SAveButtonClick
+  end
+  object UndoF4Button: TButton
+    Left = 334
+    Top = 66
+    Width = 75
+    Height = 25
+    Caption = #1054#1090#1084#1077#1085#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = UndoF4ButtonClick
+  end
+  object NotSaveButton: TButton
+    Left = 168
+    Top = 66
+    Width = 105
+    Height = 25
+    Caption = #1053#1077' '#1089#1086#1093#1088#1072#1085#1103#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = NotSaveButtonClick
+  end
+end
